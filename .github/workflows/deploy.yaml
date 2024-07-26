@@ -24,7 +24,7 @@ jobs:
       uses: peaceiris/actions-gh-pages@v4
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./dist
-        destination_dir: ./dist
+        publish_dir: ./dist # Location from which to grab the files to deploy
+        destination_dir: ./dist # Subfolder to deploy to
         publish_branch: deploy  # Branch name to deploy to
-        force_orphan: true
+        force_orphan: true # Always reset branch to deploy to
