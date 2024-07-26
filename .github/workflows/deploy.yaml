@@ -26,5 +26,5 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./dist
         destination_dir: ./dist
-        publish_branch: built-page  # The branch where you want to deploy your site
+        publish_branch: deploy  # Branch name to deploy to
         force_orphan: true
