@@ -27,3 +27,4 @@ jobs:
         publish_dir: ./dist
         destination_dir: ./dist
         publish_branch: built-page  # The branch where you want to deploy your site
+        force_orphan: true
